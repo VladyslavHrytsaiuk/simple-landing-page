@@ -17,7 +17,7 @@ const Body = () => {
           <div style={styles.card}>
               <img
                   src={"/avatar-default.png"}
-                  alt="Hulevatyi Rostyslav "
+                  alt="Hulevatyi Rostyslav"
                   style={styles.photo}
               />
               <div style={styles.textContainer}>
