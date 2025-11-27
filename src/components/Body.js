@@ -22,6 +22,13 @@ const Body = () => {
           <p style={styles.position}>Student</p>
         </div>
       </div>
+      <div style={styles.card}>
+        <img src={"/Bondarchuk.png"} alt="Bondarchuk Maksym" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Bondarchuk Maksym</h2>
+          <p style={styles.position}>Software engineer</p>
+        </div>
+      </div>
     </main>
   );
 };
