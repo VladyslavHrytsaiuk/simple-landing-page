@@ -2,7 +2,18 @@ import React from "react";
 
 const Body = () => {
   return (
-    <main style={styles.body}>
+      <main style={styles.body}>
+        <div style={styles.card}>
+          <img
+              src={"/lototskyi.png"}
+              alt="Vitalii Lototskyi"
+              style={styles.photo}
+          />
+          <div style={styles.textContainer}>
+            <h2 style={styles.name}>Vitalii Lototskyi</h2>
+            <p style={styles.position}>BackEnd developer</p>
+          </div>
+        </div>
       <div style={styles.card}>
         <img
           src={"/VladyslavHrytsaiuk.png"}
