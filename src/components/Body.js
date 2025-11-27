@@ -2,18 +2,18 @@ import React from "react";
 
 const Body = () => {
   return (
-      <main style={styles.body}>
-        <div style={styles.card}>
-          <img
-              src={"/lototskyi.png"}
-              alt="Vitalii Lototskyi"
-              style={styles.photo}
-          />
-          <div style={styles.textContainer}>
-            <h2 style={styles.name}>Vitalii Lototskyi</h2>
-            <p style={styles.position}>BackEnd developer</p>
-          </div>
+    <main style={styles.body}>
+      <div style={styles.card}>
+        <img
+          src={"/lototskyi.png"}
+          alt="Vitalii Lototskyi"
+          style={styles.photo}
+        />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Vitalii Lototskyi</h2>
+          <p style={styles.position}>BackEnd developer</p>
         </div>
+      </div>
       <div style={styles.card}>
         <img
           src={"/VladyslavHrytsaiuk.png"}
@@ -25,6 +25,17 @@ const Body = () => {
           <p style={styles.position}>Full-stack developer</p>
         </div>
       </div>
+      <div style={styles.card}>
+        <img
+          src={"/rostyslav.png"}
+          alt="Hulevatyi Rostyslav "
+          style={styles.photo}
+        />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Hulevatyi Rostyslav</h2>
+          <p style={styles.position}>Software engineer</p>
+        </div>
+      </div>
 
       <div style={styles.card}>
         <img src={"/andrian.jpg"} alt="Lahan Andrian" style={styles.photo} />
@@ -34,7 +45,11 @@ const Body = () => {
         </div>
       </div>
       <div style={styles.card}>
-        <img src={"/Bondarchuk.png"} alt="Bondarchuk Maksym" style={styles.photo} />
+        <img
+          src={"/Bondarchuk.png"}
+          alt="Bondarchuk Maksym"
+          style={styles.photo}
+        />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Bondarchuk Maksym</h2>
           <p style={styles.position}>Software engineer</p>
