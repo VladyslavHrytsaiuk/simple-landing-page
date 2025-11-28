@@ -5,7 +5,7 @@ const Header = () => {
     <header style={styles.header}>
       <h1>My dream team AFTER CONFLICT</h1>
       <h2>Test conflict</h2>
-      <h2>Test conflict</h2>
+      <h4>Test conflict</h4>
     </header>
   );
 };
