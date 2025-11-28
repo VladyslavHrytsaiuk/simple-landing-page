@@ -4,6 +4,7 @@ const Header = () => {
   return (
     <header style={styles.header}>
       <h1>My dream team AFTER CONFLICT</h1>
+      <h2>Test conflict</h2>
     </header>
   );
 };
